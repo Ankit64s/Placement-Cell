@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bckg"
+    android:backgroundTint="#A6FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".second">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Admin"
+                android:background="#C8F1C84B"
+                android:fontFamily="serif"
+                android:textStyle="italic"
+                android:textSize="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="83dp"
+                android:id="@+id/admin"/>
+
+            <Button
+                android:layout_width="220dp"
+                android:background="#C8F1C84B"
+                android:fontFamily="serif"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="TPO"
+                android:textSize="22dp"
+                android:layout_below="@id/admin"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="83dp"
+                android:id="@+id/tpo"/>
+
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="SPC"
+                android:textSize="22dp"
+                android:layout_below="@id/tpo"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="83dp"
+                android:id="@+id/spc"
+                android:background="#C8F1C84B"
+                android:fontFamily="serif"
+                android:textStyle="italic" />
+
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:textSize="22dp"
+                android:layout_below="@id/spc"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="83dp"
+                android:id="@+id/stu"
+                android:background="#C8F1C84B"
+                android:fontFamily="serif"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bckg"
+    android:backgroundTint="#A6FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:layout_height="match_parent"
+    tools:context=".adminhome">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add TPO"
+        android:textSize="22dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="83dp"
+        android:background="#C8F1C84B"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:id="@+id/adt"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:textSize="22dp"
+        android:layout_below="@id/adt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="83dp"
+        android:background="#C8F1C84B"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:id="@+id/adstud"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="View TPO"
+        android:textSize="22dp"
+        android:layout_below="@id/adstud"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="83dp"
+        android:background="#C8F1C84B"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:id="@+id/viewtpo"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="View STUDENT"
+        android:textSize="22dp"
+        android:layout_below="@id/viewtpo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="83dp"
+        android:background="#C8F1C84B"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:id="@+id/viewstud"/>
+
+
+</RelativeLayout>
